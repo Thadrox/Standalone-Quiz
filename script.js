@@ -48,112 +48,71 @@ const allQuizData = {
     "Information Technology": {
         "JSS1": {
             "Term1": [
-            { 
-                question: "Which of these is NOT an input device?", 
+                { question: "Which of these is NOT an input device?", 
                 options: ["Mouse", "Keyboard", "Monitor", "Microphone"], 
-                correct: "Monitor" 
-            },
-            { 
-                question: "What does CPU stand for?", 
+                correct: "Monitor" },
+                { question: "What does CPU stand for?", 
                 options: ["Central Processing Unit", "Computer Personal Unit", "Central Power Unit", "Control Processing Unit"], 
-                correct: "Central Processing Unit" 
-            },
-            { 
-                question: "Which of these is used to store data permanently?", 
+                correct: "Central Processing Unit" },
+                { question: "Which of these is used to store data permanently?", 
                 options: ["RAM", "ROM", "Hard Disk", "Cache Memory"], 
-                correct: "Hard Disk" 
-            },
-            { 
-                question: "What is the brain of the computer called?", 
+                correct: "Hard Disk" },
+                
+                { question: "What is the brain of the computer called?", 
                 options: ["Monitor", "Keyboard", "CPU", "Printer"], 
-                correct: "CPU" 
-            },
-            { 
-                question: "Which device displays the output from a computer?", 
+                correct: "CPU" },
+               { question: "Which device displays the output from a computer?", 
                 options: ["Printer", "Speaker", "Monitor", "Scanner"], 
-                correct: "Monitor" 
-            },
-            { 
-                question: "What is the full meaning of WWW?", 
+                correct: "Monitor" },
+                { question: "What is the full meaning of WWW?", 
                 options: ["World Wide Web", "World Wide Wonder", "Web Wide World", "World Wide Window"], 
-                correct: "World Wide Web" 
-            },
-            { 
-                question: "A set of instructions that tells the computer what to do is called:", 
+                correct: "World Wide Web" },
+                { question: "A set of instructions that tells the computer what to do is called:", 
                 options: ["Hardware", "Software", "Data", "Network"], 
-                correct: "Software" 
-            },
-            { 
-                question: "Which of these is a common operating system?", 
+                correct: "Software" },
+                { question: "Which of these is a common operating system?", 
                 options: ["Microsoft Word", "Google Chrome", "Windows", "Adobe Photoshop"], 
-                correct: "Windows" 
-            },
-            { 
-                question: "What is the term for connecting computers together to share resources?", 
+                correct: "Windows" },
+                { question: "What is the term for connecting computers together to share resources?", 
                 options: ["Processing", "Networking", "Printing", "Typing"], 
-                correct: "Networking" 
-            },
-            { 
-                question: "Which of these is an example of an output device?", 
+                correct: "Networking" },
+                { question: "Which of these is an example of an output device?", 
                 options: ["Mouse", "Microphone", "Speaker", "Scanner"], 
                 correct: "Speaker"},
-            { 
-                question: "What is the primary function of a printer?", 
+               { question: "What is the primary function of a printer?", 
                 options: ["To display images", "To make sound", "To produce hard copies of documents", "To scan documents"], 
-                correct: "To produce hard copies of documents" 
-            },
-            { 
-                question: "Which of these is a popular search engine?", 
+                correct: "To produce hard copies of documents" },
+               { question: "Which of these is a popular search engine?", 
                 options: ["Facebook", "YouTube", "Google", "WhatsApp"], 
-                correct: "Google" 
-            },
-            { 
-                question: "What is a 'folder' used for on a computer?", 
+                correct: "Google" },
+               { question: "What is a 'folder' used for on a computer?", 
                 options: ["To play music", "To store and organize files", "To browse the internet", "To type documents"], 
-                correct: "To store and organize files" 
-            },
-            { 
-                question: "Which input device is used to control a pointer on the screen?", 
+                correct: "To store and organize files" },
+               { question: "Which input device is used to control a pointer on the screen?", 
                 options: ["Keyboard", "Mouse", "Scanner", "Printer"], 
-                correct: "Mouse" 
-            },
-            { 
-                question: "What is the process of starting up a computer called?", 
+                correct: "Mouse" },
+               { question: "What is the process of starting up a computer called?", 
                 options: ["Shutting down", "Sleeping", "Booting", "Restarting"], 
-                correct: "Booting" 
-            },
-            { 
-                question: "Which of these is a benefit of using computers?", 
+                correct: "Booting" },
+               { question: "Which of these is a benefit of using computers?", 
                 options: ["They are always slow", "They cannot store much data", "They make work faster and easier", "They are only for playing games"], 
-                correct: "They make work faster and easier" 
-            },
-            { 
-                question: "What is the name for a small picture on a computer screen that represents a program or file?", 
+                correct: "They make work faster and easier" },
+               { question: "What is the name for a small picture on a computer screen that represents a program or file?", 
                 options: ["Window", "Button", "Icon", "Menu"], 
-                correct: "Icon" 
-            },
-            { 
-                question: "Which component supplies power to the entire computer system?", 
+                correct: "Icon" },
+               { question: "Which component supplies power to the entire computer system?", 
                 options: ["Motherboard", "CPU", "Power Supply Unit (PSU)", "RAM"], 
-                correct: "Power Supply Unit (PSU)" 
-            },
-            { 
-                question: "What does 'URL' stand for?", 
+                correct: "Power Supply Unit (PSU)" },
+              { question: "What does 'URL' stand for?", 
                 options: ["Universal Resource Locator", "Uniform Resource Link", "United Resource List", "Under Resource Location"], 
-                correct: "Uniform Resource Link" 
-            },
-            { 
-                question: "Which of these is a common way to protect a computer from unauthorized access?", 
+                correct: "Uniform Resource Link" },
+              { question: "Which of these is a common way to protect a computer from unauthorized access?", 
                 options: ["Turning it off", "Setting a password", "Leaving it on all the time", "Sharing it with everyone"], 
-                correct: "Setting a password" 
-            },
-            {
-                question: "What is the primary purpose of a keyboard?",
+                correct: "Setting a password" },
+              { question: "What is the primary purpose of a keyboard?",
                 options: ["To display images", "To make sound", "To input text and commands", "To print documents"],
-                correct: "To input text and commands"
-            },
-            {
-                question: "Which of these is a type of computer memory that loses its content when power is off?",
+                correct: "To input text and commands" },
+               { question: "Which of these is a type of computer memory that loses its content when power is off?",
                 options: ["Hard Disk", "ROM", "RAM", "Flash Drive"],
                 correct: "RAM"
             },
@@ -207,20 +166,15 @@ const allQuizData = {
                 options: ["Speakers", "Printer", "Headphones", "Microphone"],
                 correct: "Headphones"
             },
-            {
-                question: "What does 'Wi-Fi' allow devices to do?",
+               { question: "What does 'Wi-Fi' allow devices to do?",
                 options: ["Connect to a printer", "Connect to the internet wirelessly", "Store files permanently", "Charge their batteries"],
-                correct: "Connect to the internet wirelessly"
-            },
-            {
-                question: "Which term describes physical parts of a computer that you can touch?",
+                correct: "Connect to the internet wirelessly" },
+               { question: "Which term describes physical parts of a computer that you can touch?",
                 options: ["Software", "Data", "Hardware", "Program"],
-                correct: "Hardware"
-            },
-            {
-                question: "What is the main function of the 'Delete' key on a keyboard?",
+                correct: "Hardware" },
+               { question: "What is the main function of the 'Delete' key on a keyboard?",
                 options: ["To move the cursor", "To capitalize letters", "To remove text or files", "To save a document"],
-                correct: "To remove text or files"
+                correct: "To remove text or files" }
             ]
         }
     }                 
