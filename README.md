@@ -1,0 +1,2 @@
+# Standalone-Quiz
+Detached Quiz
