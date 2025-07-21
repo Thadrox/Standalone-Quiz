@@ -221,8 +221,8 @@ const allQuizData = {
                 question: "What is the main function of the 'Delete' key on a keyboard?",
                 options: ["To move the cursor", "To capitalize letters", "To remove text or files", "To save a document"],
                 correct: "To remove text or files"
-            }
-        ]
+            ]
+        }
     }                 
 };
 
