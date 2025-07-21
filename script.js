@@ -105,8 +105,8 @@ const allQuizData = {
   }
     },
         "GrossAnatomy": {
-            "firstsemester: {
-            "session": [
+            "JSS1": {
+            "Term3": [
   { question: "Which organ is protected by the rib cage?", options: ["Liver", "Lungs", "Stomach", "Kidneys"], correct: "Lungs" },
   { question: "How many bones are in the adult human body?", options: ["206", "208", "210", "205"], correct: "206" },
   { question: "The femur is located in the?", options: ["Arm", "Leg", "Skull", "Abdomen"], correct: "Leg" },
