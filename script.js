@@ -23,6 +23,47 @@ const allQuizData = {
             ]
         }
     },
+    "Information Technology": {
+  "JSS2": {
+    "Term3": [
+      { question: "What does ICT stand for?", options: ["Information and Communication Technology", "Internet Communication Tool", "Information Control Technology", "Interactive Computer Training"], correct: "Information and Communication Technology" },
+      { question: "Which device is used to enter data into a computer?", options: ["Monitor", "Keyboard", "Printer", "Speaker"], correct: "Keyboard" },
+      { question: "The part of a computer that displays output is the?", options: ["Mouse", "Monitor", "CPU", "Scanner"], correct: "Monitor" },
+      { question: "Which of these is an example of an input device?", options: ["Speaker", "Keyboard", "Projector", "Monitor"], correct: "Keyboard" },
+      { question: "What is software?", options: ["Physical parts of a computer", "Programs and applications", "Input devices", "Computer casing"], correct: "Programs and applications" },
+      { question: "What is the full meaning of CPU?", options: ["Central Programming Unit", "Central Processing Unit", "Computer Power Unit", "Control Panel Unit"], correct: "Central Processing Unit" },
+      { question: "Which of the following stores information permanently?", options: ["RAM", "ROM", "Cache", "Register"], correct: "ROM" },
+      { question: "Which of these is NOT a storage device?", options: ["Hard disk", "Flash drive", "Mouse", "Memory card"], correct: "Mouse" },
+      { question: "A website address is also called a?", options: ["Email", "Username", "URL", "Domain"], correct: "URL" },
+      { question: "Which key is used to delete characters to the left of the cursor?", options: ["Enter", "Shift", "Backspace", "Tab"], correct: "Backspace" },
+      { question: "A virus in computing is?", options: ["Computer hardware", "Programming language", "Malicious software", "Antivirus"], correct: "Malicious software" },
+      { question: "An example of a web browser is?", options: ["Windows", "Chrome", "Linux", "Excel"], correct: "Chrome" },
+      { question: "Which of the following is used to protect your computer from viruses?", options: ["Paint", "WordPad", "Antivirus", "Excel"], correct: "Antivirus" },
+      { question: "The main function of a scanner is to?", options: ["Print documents", "Send emails", "Convert paper to digital", "Copy documents"], correct: "Convert paper to digital" },
+      { question: "Which of these is used for printing hard copies?", options: ["Monitor", "Printer", "Modem", "Mouse"], correct: "Printer" },
+      { question: "Which device connects a computer to the internet?", options: ["Scanner", "Printer", "Modem", "Keyboard"], correct: "Modem" },
+      { question: "Software designed to do specific tasks is called?", options: ["System software", "Utility software", "Application software", "Malware"], correct: "Application software" },
+      { question: "What does WWW stand for?", options: ["World Web Wide", "Wide World Web", "World Wide Web", "Web World Wide"], correct: "World Wide Web" },
+      { question: "Which of the following is an operating system?", options: ["Word", "Windows", "Chrome", "Excel"], correct: "Windows" },
+      { question: "Which of these is NOT an output device?", options: ["Monitor", "Speaker", "Keyboard", "Printer"], correct: "Keyboard" },
+      { question: "What is the brain of the computer?", options: ["Monitor", "CPU", "Mouse", "RAM"], correct: "CPU" },
+      { question: "Which file extension is used for Microsoft Word documents?", options: [".exe", ".docx", ".jpg", ".mp3"], correct: ".docx" },
+      { question: "What is the function of a mouse?", options: ["Type text", "Store data", "Point and click", "Display graphics"], correct: "Point and click" },
+      { question: "An email is used for?", options: ["Printing documents", "Online chatting", "Sending and receiving messages", "Editing pictures"], correct: "Sending and receiving messages" },
+      { question: "Where is data temporarily stored during computer operation?", options: ["ROM", "RAM", "Hard disk", "CD"], correct: "RAM" },
+      { question: "Which of the following is an example of system software?", options: ["Microsoft Word", "CorelDRAW", "Windows OS", "PowerPoint"], correct: "Windows OS" },
+      { question: "What is the purpose of a firewall?", options: ["Print documents", "Protect against viruses", "Secure the network", "Improve graphics"], correct: "Secure the network" },
+      { question: "What is the process of starting a computer called?", options: ["Loading", "Booting", "Refreshing", "Initiating"], correct: "Booting" },
+      { question: "The storage capacity of a CD is about?", options: ["700MB", "2GB", "4GB", "1TB"], correct: "700MB" },
+      { question: "Which of these is a programming language?", options: ["HTTP", "Python", "USB", "LAN"], correct: "Python" },
+      { question: "Which of the following is not a type of computer?", options: ["Desktop", "Laptop", "Printer", "Tablet"], correct: "Printer" },
+      { question: "Which of these helps in creating and editing spreadsheets?", options: ["Word", "Excel", "Access", "Paint"], correct: "Excel" },
+      { question: "Ctrl + C is used to?", options: ["Paste", "Copy", "Cut", "Delete"], correct: "Copy" },
+      { question: "Which part of the computer stores data long-term?", options: ["RAM", "ROM", "Hard Disk", "Cache"], correct: "Hard Disk" },
+      { question: "The smallest unit of computer memory is?", options: ["Byte", "Bit", "Kilobyte", "Megabyte"], correct: "Bit" }
+    ]
+  }
+    },
     "English": {
         "JSS1": {
             "Term1": [
