@@ -62,8 +62,7 @@ const allQuizData = {
       { question: "Which device is used to record your voice into a computer?", options: ["Speaker", "Printer", "Microphone", "Modem"], correct: "Microphone" },
       { question: "A folder is used to?", options: ["Install programs", "Save files", "Display pictures", "Print documents"], correct: "Save files" }
     ]
-  }
-    },
+  },
     "Information Technology": {
   "JSS2": {
     "Term3": [
@@ -105,6 +104,44 @@ const allQuizData = {
     ]
   }
     },
+        "GrossAnatomy": [
+  { question: "Which organ is protected by the rib cage?", options: ["Liver", "Lungs", "Stomach", "Kidneys"], correct: "Lungs" },
+  { question: "How many bones are in the adult human body?", options: ["206", "208", "210", "205"], correct: "206" },
+  { question: "The femur is located in the?", options: ["Arm", "Leg", "Skull", "Abdomen"], correct: "Leg" },
+  { question: "Which bone forms the forehead?", options: ["Temporal", "Frontal", "Parietal", "Occipital"], correct: "Frontal" },
+  { question: "The largest internal organ in the body is the?", options: ["Liver", "Heart", "Lung", "Kidney"], correct: "Liver" },
+  { question: "The main function of red blood cells is to?", options: ["Fight infection", "Clot blood", "Carry oxygen", "Produce hormones"], correct: "Carry oxygen" },
+  { question: "The heart is located in the?", options: ["Cranial cavity", "Abdominal cavity", "Thoracic cavity", "Pelvic cavity"], correct: "Thoracic cavity" },
+  { question: "Which bone protects the brain?", options: ["Femur", "Humerus", "Skull", "Sternum"], correct: "Skull" },
+  { question: "Which muscle is responsible for breathing?", options: ["Biceps", "Deltoid", "Diaphragm", "Quadriceps"], correct: "Diaphragm" },
+  { question: "Which of these is a part of the axial skeleton?", options: ["Femur", "Humerus", "Skull", "Pelvis"], correct: "Skull" },
+  { question: "The scapula is commonly known as the?", options: ["Kneecap", "Collarbone", "Shoulder blade", "Hip bone"], correct: "Shoulder blade" },
+  { question: "The kneecap is called the?", options: ["Ulna", "Patella", "Tibia", "Radius"], correct: "Patella" },
+  { question: "How many chambers does the human heart have?", options: ["2", "3", "4", "5"], correct: "4" },
+  { question: "Which organ is responsible for filtering blood?", options: ["Liver", "Pancreas", "Heart", "Kidneys"], correct: "Kidneys" },
+  { question: "Which blood vessel carries oxygenated blood away from the heart?", options: ["Vein", "Artery", "Capillary", "Valve"], correct: "Artery" },
+  { question: "The largest bone in the body is the?", options: ["Tibia", "Femur", "Pelvis", "Spine"], correct: "Femur" },
+  { question: "The vertebral column is made up of how many bones?", options: ["30", "33", "36", "25"], correct: "33" },
+  { question: "Which structure connects muscles to bones?", options: ["Ligaments", "Tendons", "Cartilage", "Fascia"], correct: "Tendons" },
+  { question: "Which organ stores bile?", options: ["Pancreas", "Gallbladder", "Liver", "Stomach"], correct: "Gallbladder" },
+  { question: "Which part of the digestive system absorbs most nutrients?", options: ["Stomach", "Small intestine", "Large intestine", "Esophagus"], correct: "Small intestine" },
+  { question: "Which lobe of the brain is responsible for vision?", options: ["Frontal", "Temporal", "Occipital", "Parietal"], correct: "Occipital" },
+  { question: "The wrist contains which type of bones?", options: ["Flat bones", "Long bones", "Short bones", "Irregular bones"], correct: "Short bones" },
+  { question: "Which part of the bone produces blood cells?", options: ["Bone marrow", "Periosteum", "Compact bone", "Spongy bone"], correct: "Bone marrow" },
+  { question: "The outer covering of the bone is called?", options: ["Cartilage", "Ligament", "Periosteum", "Myelin"], correct: "Periosteum" },
+  { question: "The pelvis is part of which skeleton?", options: ["Axial", "Appendicular", "Visceral", "Neural"], correct: "Appendicular" },
+  { question: "Which joint allows movement in all directions?", options: ["Hinge joint", "Ball and socket joint", "Pivot joint", "Fixed joint"], correct: "Ball and socket joint" },
+  { question: "Which muscle is found only in the heart?", options: ["Skeletal muscle", "Smooth muscle", "Cardiac muscle", "Abdominal muscle"], correct: "Cardiac muscle" },
+  { question: "Which part of the brain controls balance?", options: ["Cerebrum", "Cerebellum", "Medulla", "Thalamus"], correct: "Cerebellum" },
+  { question: "What is the functional unit of the kidney?", options: ["Alveolus", "Neuron", "Nephron", "Atrium"], correct: "Nephron" },
+  { question: "Which of these is part of the respiratory system?", options: ["Trachea", "Femur", "Ulna", "Scapula"], correct: "Trachea" },
+  { question: "Which muscle contracts during inhalation?", options: ["Biceps", "Diaphragm", "Pectoral", "Deltoid"], correct: "Diaphragm" },
+  { question: "Which blood vessel brings blood to the heart?", options: ["Artery", "Vein", "Capillary", "Lymph vessel"], correct: "Vein" },
+  { question: "The number of ribs in the human body is?", options: ["10", "12", "14", "24"], correct: "24" },
+  { question: "The liver is located in which quadrant of the abdomen?", options: ["Left upper", "Right upper", "Left lower", "Right lower"], correct: "Right upper" }
+            ]
+    }
+},
     "English": {
         "JSS1": {
             "Term1": [
@@ -162,7 +199,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedOptionButton = null;
 let timerInterval;
-const QUIZ_DURATION_SECONDS = 300; // 5 minutes = 300 seconds
+const QUIZ_DURATION_SECONDS = 6300; // 5 minutes = 300 seconds
 let timeLeft = QUIZ_DURATION_SECONDS;
 
 // User's selected details
