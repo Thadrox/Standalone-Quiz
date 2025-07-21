@@ -45,9 +45,9 @@ const allQuizData = {
             ]
         }
     },
-    "Information Technology":{
-        "JSS1":{
-            "Term1":[
+    "Information Technology": {
+        "JSS1": {
+            "Term1": [
             { 
                 question: "Which of these is NOT an input device?", 
                 options: ["Mouse", "Keyboard", "Monitor", "Microphone"], 
