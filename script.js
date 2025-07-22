@@ -24,8 +24,8 @@ const allQuizData = {
         }
     },
     "Information Technology": {
-  "JSS1": {
-    "Term3": [
+        "JSS1": {
+            "Term3": [
       { question: "Which one is a type of computer?", options: ["Scanner", "Laptop", "Keyboard", "Printer"], correct: "Laptop" },
       { question: "What does the 'C' in ICT stand for?", options: ["Computer", "Communication", "Cable", "Control"], correct: "Communication" },
       { question: "A device that allows you to type into a computer is called?", options: ["Mouse", "Monitor", "Keyboard", "CPU"], correct: "Keyboard" },
@@ -61,11 +61,10 @@ const allQuizData = {
       { question: "Microsoft Excel is mainly used for?", options: ["Typing", "Drawing", "Calculations", "Browsing"], correct: "Calculations" },
       { question: "Which device is used to record your voice into a computer?", options: ["Speaker", "Printer", "Microphone", "Modem"], correct: "Microphone" },
       { question: "A folder is used to?", options: ["Install programs", "Save files", "Display pictures", "Print documents"], correct: "Save files" }
-    ]
-  },
-    "Information Technology": {
-  "JSS2": {
-    "Term3": [
+            ]
+        },
+        "JSS2": {
+            "Term3": [
       { question: "What does ICT stand for?", options: ["Information and Communication Technology", "Internet Communication Tool", "Information Control Technology", "Interactive Computer Training"], correct: "Information and Communication Technology" },
       { question: "Which device is used to enter data into a computer?", options: ["Monitor", "Keyboard", "Printer", "Speaker"], correct: "Keyboard" },
       { question: "The part of a computer that displays output is the?", options: ["Mouse", "Monitor", "CPU", "Scanner"], correct: "Monitor" },
@@ -101,12 +100,12 @@ const allQuizData = {
       { question: "Ctrl + C is used to?", options: ["Paste", "Copy", "Cut", "Delete"], correct: "Copy" },
       { question: "Which part of the computer stores data long-term?", options: ["RAM", "ROM", "Hard Disk", "Cache"], correct: "Hard Disk" },
       { question: "The smallest unit of computer memory is?", options: ["Byte", "Bit", "Kilobyte", "Megabyte"], correct: "Bit" }
-    ]
-  }
+            ]
+        }
     },
         "GrossAnatomy": {
             "JSS1": {
-            "Term3": [
+                "Term3": [
   { question: "Which organ is protected by the rib cage?", options: ["Liver", "Lungs", "Stomach", "Kidneys"], correct: "Lungs" },
   { question: "How many bones are in the adult human body?", options: ["206", "208", "210", "205"], correct: "206" },
   { question: "The femur is located in the?", options: ["Arm", "Leg", "Skull", "Abdomen"], correct: "Leg" },
@@ -141,7 +140,7 @@ const allQuizData = {
   { question: "Which blood vessel brings blood to the heart?", options: ["Artery", "Vein", "Capillary", "Lymph vessel"], correct: "Vein" },
   { question: "The number of ribs in the human body is?", options: ["10", "12", "14", "24"], correct: "24" },
   { question: "The liver is located in which quadrant of the abdomen?", options: ["Left upper", "Right upper", "Left lower", "Right lower"], correct: "Right upper" }
-            ]
+                ]
             }
         },
     "English": {
