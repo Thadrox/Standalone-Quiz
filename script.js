@@ -102,6 +102,7 @@ const allQuizData = {
       { question: "Which part of the computer stores data long-term?", options: ["RAM", "ROM", "Hard Disk", "Cache"], correct: "Hard Disk" },
       { question: "The smallest unit of computer memory is?", options: ["Byte", "Bit", "Kilobyte", "Megabyte"], correct: "Bit" }
     ]
+  }
       
     },
         "GrossAnatomy": {
@@ -141,7 +142,8 @@ const allQuizData = {
   { question: "Which blood vessel brings blood to the heart?", options: ["Artery", "Vein", "Capillary", "Lymph vessel"], correct: "Vein" },
   { question: "The number of ribs in the human body is?", options: ["10", "12", "14", "24"], correct: "24" },
   { question: "The liver is located in which quadrant of the abdomen?", options: ["Left upper", "Right upper", "Left lower", "Right lower"], correct: "Right upper" }
-            ]
+                ]
+            }
 },
     "English": {
         "JSS1": {
@@ -190,7 +192,7 @@ const resultsScreen = document.getElementById('results-screen');
 const resultsName = document.getElementById('results-name');
 const resultsClass = document.getElementById('results-class');
 const resultsSubject = document.getElementById('results-subject');
-const resultsTerm = document.getElementById('results-term');
+const resultsTerm = doument.getElementById('results-term');
 const scoreDisplay = document.getElementById('score-display');
 const restartQuizBtn = document.getElementById('restart-quiz-btn');
 
