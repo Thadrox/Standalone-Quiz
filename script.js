@@ -149,7 +149,7 @@ const resultsScreen = document.getElementById('results-screen');
 const resultsName = document.getElementById('results-name');
 const resultsClass = document.getElementById('results-class');
 const resultsSubject = document.getElementById('results-subject');
-const resultsTerm = doument.getElementById('results-term');
+const resultsTerm = document.getElementById('results-term');
 const scoreDisplay = document.getElementById('score-display');
 const restartQuizBtn = document.getElementById('restart-quiz-btn');
 
