@@ -93,7 +93,7 @@ const allQuizData = {
                 { question: "What is the purpose of a firewall?", options: ["Print documents", "Protect against viruses", "Secure the network", "Improve graphics"], correct: "Secure the network" },
                 { question: "What is the process of starting a computer called?", options: ["Loading", "Booting", "Refreshing", "Initiating"], correct: "Booting" },
                 { question: "The storage capacity of a CD is about?", options: ["700MB", "2GB", "4GB", "1TB"], correct: "700MB" },
-                { question: "Which of these is a programming language?", options: ["HTTP", "Python", "USB", "LAN"], correct: "Python" }
+                { question: "Which of these is a programming language?", options: ["HTTP", "Python", "USB", "LAN"], correct: "Python" },
                 { question: "Which of the following is not a type of computer?", options: ["Desktop", "Laptop", "Printer", "Tablet"], correct: "Printer" },
                 { question: "Which of these helps in creating and editing spreadsheets?", options: ["Word", "Excel", "Access", "Paint"], correct: "Excel" },
                 { question: "Ctrl + C is used to?", options: ["Paste", "Copy", "Cut", "Delete"], correct: "Copy" },
