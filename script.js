@@ -103,7 +103,6 @@ const allQuizData = {
       { question: "The smallest unit of computer memory is?", options: ["Byte", "Bit", "Kilobyte", "Megabyte"], correct: "Bit" }
     ]
   }
-      
     },
         "GrossAnatomy": {
             "JSS1": {
@@ -142,9 +141,9 @@ const allQuizData = {
   { question: "Which blood vessel brings blood to the heart?", options: ["Artery", "Vein", "Capillary", "Lymph vessel"], correct: "Vein" },
   { question: "The number of ribs in the human body is?", options: ["10", "12", "14", "24"], correct: "24" },
   { question: "The liver is located in which quadrant of the abdomen?", options: ["Left upper", "Right upper", "Left lower", "Right lower"], correct: "Right upper" }
-                ]
+            ]
             }
-},
+        },
     "English": {
         "JSS1": {
             "Term1": [
