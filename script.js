@@ -75,7 +75,7 @@ const allQuizData = {
                 { question: "Which of these is NOT a storage device?", options: ["Hard disk", "Flash drive", "Mouse", "Memory card"], correct: "Mouse" },
                 { question: "A website address is also called a?", options: ["Email", "Username", "URL", "Domain"], correct: "URL" },
                 { question: "Which key is used to delete characters to the left of the cursor?", options: ["Enter", "Shift", "Backspace", "Tab"], correct: "Backspace" },
-                { question: "A virus in computing is?", options: ["Computer hardware", "Programming language", "Malicious software", "Antivirus"], correct: "Malicious software" }, // Added comma here
+                { question: "A virus in computing is?", options: ["Computer hardware", "Programming language", "Malicious software", "Antivirus"], correct: "Malicious software" }, // ADDED COMMA HERE
                 { question: "An example of a web browser is?", options: ["Windows", "Chrome", "Linux", "Excel"], correct: "Chrome" },
                 { question: "Which of the following is used to protect your computer from viruses?", options: ["Paint", "WordPad", "Antivirus", "Excel"], correct: "Antivirus" },
                 { question: "The main function of a scanner is to?", options: ["Print documents", "Send emails", "Convert paper to digital", "Copy documents"], correct: "Convert paper to digital" },
@@ -88,7 +88,7 @@ const allQuizData = {
                 { question: "What is the brain of the computer?", options: ["Monitor", "CPU", "Mouse", "RAM"], correct: "CPU" },
                 { question: "Which file extension is used for Microsoft Word documents?", options: [".exe", ".docx", ".jpg", ".mp3"], correct: ".docx" },
                 { question: "What is the function of a mouse?", options: ["Type text", "Store data", "Point and click", "Display graphics"], correct: "Point and click" },
-                { question: "An email is used for?", options: ["Printing documents", "Online chatting", "Sending and receiving messages", "Editing pictures"], correct: "Sending and receiving messages" }, // Added comma here
+                { question: "An email is used for?", options: ["Printing documents", "Online chatting", "Sending and receiving messages", "Editing pictures"], correct: "Sending and receiving messages" }, // ADDED COMMA HERE
                 { question: "Where is data temporarily stored during computer operation?", options: ["ROM", "RAM", "Hard disk", "CD"], correct: "RAM" },
                 { question: "Which of the following is an example of system software?", options: ["Microsoft Word", "CorelDRAW", "Windows OS", "PowerPoint"], correct: "Windows OS" },
                 { question: "What is the purpose of a firewall?", options: ["Print documents", "Protect against viruses", "Secure the network", "Improve graphics"], correct: "Secure the network" },
@@ -103,7 +103,7 @@ const allQuizData = {
             ]
         }
     },
-    "English": {
+            "English": {
         "JSS1": {
             "Term1": [
                 { question: "Which of these is a verb?", options: ["happy", "jump", "tree", "slowly"], correct: "jump" },
@@ -150,7 +150,7 @@ const resultsScreen = document.getElementById('results-screen');
 const resultsName = document.getElementById('results-name');
 const resultsClass = document.getElementById('results-class');
 const resultsSubject = document.getElementById('results-subject');
-const resultsTerm = document.getElementById('results-term'); // Corrected typo here
+const resultsTerm = document.getElementById('results-term'); // CORRECTED TYPO HERE
 const scoreDisplay = document.getElementById('score-display');
 const restartQuizBtn = document.getElementById('restart-quiz-btn');
 
